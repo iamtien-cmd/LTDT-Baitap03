@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Tuan4"
         tools:targetApi="31">
         <activity
-            android:name=".bai03"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
