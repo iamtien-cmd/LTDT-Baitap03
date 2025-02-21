@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <!-- Thanh tiêu đề -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6200EA"
+        android:text="My Application"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <!-- Layout chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Cột trái -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00BCD4"
+                android:text="01"
+                android:textSize="30sp"
+                android:textColor="#FF5722"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#68C56F"
+                android:text="02"
+                android:textSize="30sp"
+                android:textColor="#FF5722"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!-- Cột giữa -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#AD1A74"
+                android:text="03"
+                android:textSize="30sp"
+                android:textColor="#FF5722"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#68C56F"
+                android:text="04"
+                android:textSize="30sp"
+                android:textColor="#FF5722"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1E88E5"
+                android:text="05"
+                android:textSize="30sp"
+                android:textColor="#FF5722"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!-- Cột phải -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:background="#F44336"
+                android:text="06"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF"
+                android:gravity="top|start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:text="06"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF"
+                android:gravity="top|start"/>
+        </LinearLayout>
+
+        <!-- Cột nhỏ ngoài cùng bên phải -->
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="#FFEB3B"
+            android:text="07"
+            android:textSize="30sp"
+            android:textColor="#FF5722"
+            android:gravity="top"/>
+    </LinearLayout>
+</LinearLayout>
