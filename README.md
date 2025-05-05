@@ -16,7 +16,8 @@ https://utexlms.hcmute.edu.vn/pluginfile.php/636691/mod_assign/intro/02_Example_
 ![image](https://github.com/user-attachments/assets/dd9eab56-1de1-43be-93ca-fe3f6ade4556)
 ![image](https://github.com/user-attachments/assets/4347de7e-7eb4-41db-879e-946c9a8dac92)
 ![image](https://github.com/user-attachments/assets/c7b59b95-206b-48fa-b1d6-431488d2bac2)
-![image](https://github.com/user-attachments/assets/11cf4092-f443-4a66-a1e9-5459eddc6949)
+![image](https://github.com/user-attachments/assets/7fb0d23d-7289-444c-a2d3-d3d29a71c95c)
+
 
 Hình ảnh làm bài lấy trên khóa học https://utexlms.hcmute.edu.vn/mod/folder/view.php?id=371713
 
